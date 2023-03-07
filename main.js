@@ -31,6 +31,12 @@ while(selecciona){
         else if(r1 == 0){
             console.log(nombre + ", tu Point Range está en: 0; tu letra es: Z; y tu SBG Rating es de: 0. Felicitaciones, el rango mas bajo y el peor, podes sentirte como un fracasado total toda tu vida y ni te vuelvas a aparecer por aqui porque te sacamos a machetazos :3")
         }   
+        else {
+            alert("Ingresa un valor valido...");
+            setTimeout(function(){
+                window.location.reload();
+             }, 1500);
+        }
     }
     else if(selecciona == 2){
         let r2 = prompt("Digita tu calificacion en Point Range, de 0 hasta 14")
@@ -52,6 +58,12 @@ while(selecciona){
         else if(r2 == 0){
             console.log(nombre + ", tu puntaje tradicional está en 0; tu letra es: Z; y tu SBG Rating es de: 0. Felicitaciones, el rango mas bajo y el peor, podes sentirte como un fracasado total toda tu vida y ni te vuelvas a aparecer por aqui porque te sacamos a machetazos :3")
         } 
+        else {
+            alert("Ingresa un valor valido...");
+            setTimeout(function(){
+                window.location.reload();
+             }, 1500);
+        }
     }
     else if(selecciona == 3){
         let r3 = prompt("Digita tu calificacion con la letra (A, B, C, D, E, Z)");
@@ -73,6 +85,12 @@ while(selecciona){
         else if(r3 = "Z"){
             console.log(nombre + ", tu puntaje tradicional está en 0; tu Point Range está en: 0; y tu SBG Rating es de: 0. Felicitaciones, el rango mas bajo y el peor, podes sentirte como un fracasado total toda tu vida y ni te vuelvas a aparecer por aqui porque te sacamos a machetazos :3")
         }   
+        else {
+            alert("Ingresa un valor valido...");
+            setTimeout(function(){
+                window.location.reload();
+             }, 1500);
+        }
     }
     else {
         alert("Ingresa un valor valido...");
